@@ -91,7 +91,7 @@ Here’s what the GUI looks like when opened:
 ### **Test Example**  
 Here’s an example of the GUI in action, showing an uploaded image and the generated caption:
 
-![GUI Interface_test_example.png]https://github.com/Michael-2003/Image-Caption-Generator-Using-Transformer-Models/blob/c7421c92005bc7f3d5dd5fed2bcde361aeb9136d/GUI%20interface_test_example.png
+![GUI Interface_test_example.png](https://github.com/Michael-2003/Image-Caption-Generator-Using-Transformer-Models/blob/c7421c92005bc7f3d5dd5fed2bcde361aeb9136d/GUI%20interface_test_example.png)
 
 ### **How to Use the GUI:**
 1. **Launch the GUI**: Run the following command in your terminal:
