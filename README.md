@@ -133,6 +133,7 @@ def adapt_vectorization_layer(captions):
 adapt_vectorization_layer(text_data)
 
 ```
+These steps are executed within the `ImageCaptioning.ipynb` notebook, ensuring the trained model and its vocabulary are properly saved and can be loaded for inference later.
 ---
 ## **Model Architecture**
 
