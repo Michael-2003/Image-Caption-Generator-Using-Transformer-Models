@@ -106,7 +106,33 @@ Here’s an example of the GUI in action, showing an uploaded image and the gene
 
 4. **Test Multiple Images**: Try uploading different images to see how well the model generates captions across a variety of inputs.
 
+---
+## **Saving Model Weights and Vocabulary**
 
+During training, the model weights and vocabulary are saved for future use. This allows for easy loading of the trained model and its vocabulary during inference.
+
+### **Saving Model Weights**:
+The model weights are saved in a `.h5` file after training. This is done through the **Jupyter Notebook** and not any Python file:
+
+```python
+caption_model.save_weights('ICM_weights.h5')
+```
+### **Saving Vocabulary**:
+The vocabulary is adapted and saved as a `vocab.pkl` file in the notebook as well. This allows the model to reference the same vocabulary during inference:
+
+```python
+def adapt_vectorization_layer(captions):
+    # Adapt the vectorization layer to the captions
+    vectorization.adapt(captions)
+
+    # Save the adapted vocabulary
+    vocab = vectorization.get_vocabulary()
+    with open("vocab.pkl", "wb") as f:
+        pickle.dump(vocab, f)
+
+adapt_vectorization_layer(text_data)
+
+```
 ---
 ## **Model Architecture**
 
