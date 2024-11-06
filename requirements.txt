@@ -1,0 +1,12 @@
+tensorflow
+keras
+efficientnet
+numpy
+matplotlib
+seaborn
+plotly
+scikit-learn
+nltk
+tqdm
+pillow
+tkinter
