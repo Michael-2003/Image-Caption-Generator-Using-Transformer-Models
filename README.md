@@ -57,18 +57,11 @@ The model is trained on the **Flickr8k dataset**, which contains 8,000 images, e
     pip install -r requirements.txt
   ```
 
-### **3. Training the Model**:
-   - Set up the dataset path and model parameters in `parameters.py`.
-   - Run the `train.py` script to train the model on the Flickr8k dataset:
-    ```bash
-    python train.py
-    ```
-
-### **4. Generate Captions**:
+### **3. Generate Captions**:
    After training, run the `generate_caption.py` script to input an image and receive a generated caption:
-    ```bash
+  ```bash
     python generate_caption.py --image_path /path/to/image.jpg
-    ```
+  ```
 
 
 ---
