@@ -86,7 +86,7 @@ The **GUI** provides a seamless and user-friendly way for users to interact with
 ### **GUI Screenshot**  
 Here’s what the GUI looks like when opened:
 
-![GUI Screenshot](GUI Interface.png)
+![GUI Interface.png](https://github.com/Michael-2003/Image-Caption-Generator-Using-Transformer-Models/blob/c7421c92005bc7f3d5dd5fed2bcde361aeb9136d/GUI%20interface_test_example.png)
 
 ### **Test Example**  
 Here’s an example of the GUI in action, showing an uploaded image and the generated caption:
