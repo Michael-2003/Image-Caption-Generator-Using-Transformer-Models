@@ -47,8 +47,8 @@ The model is trained on the **Flickr8k dataset**, which contains 8,000 images, e
 
 ### **1. Clone the repository**:
   ```bash
-    git clone https://github.com/your-username/image-caption-generator.git
-    cd image-caption-generator
+    git clone https://github.com/Michael-2003/Image-Caption-Generator-Using-Transformer-Models.git
+    cd Image-Caption-Generator-Using-Transformer-Models
   ```
 
 ### **2. Install dependencies**:
