@@ -1,4 +1,4 @@
-# **Image Caption Generator Using Transformer Models**
+![image](https://github.com/user-attachments/assets/3af2cc81-1a27-42af-a7a2-f1563d4ce187)# **Image Caption Generator Using Transformer Models**
 
 ## **Project Overview**
 
@@ -93,7 +93,8 @@ The Transformer architecture, consisting of an encoder-decoder structure, is use
 
 The user-friendly interface allows users to easily upload images and view the generated captions. Here is a screenshot of the GUI:
 
-![GUI Screenshot](path_to_gui_image)  
+![GUI Screenshot](![Uploading image.png…])
+  
 *(Replace "path_to_gui_image" with the actual image file path)*
 
 ---
