@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3af2cc81-1a27-42af-a7a2-f1563d4ce187)# **Image Caption Generator Using Transformer Models**
+# **Image Caption Generator Using Transformer Models**
 
 ## **Project Overview**
 
@@ -84,7 +84,7 @@ The EfficientNet model is used to extract image features from the input image. T
 
 The Transformer architecture, consisting of an encoder-decoder structure, is used to generate captions. The encoder processes the image features, and the decoder generates the sequence of words forming the caption.
 
-![Model Architecture](path_to_architecture_image)  
+![Model Architecture](![image](https://github.com/user-attachments/assets/3af2cc81-1a27-42af-a7a2-f1563d4ce187))  
 *(Replace "path_to_architecture_image" with the actual image file path)*
 
 ---
@@ -93,7 +93,6 @@ The Transformer architecture, consisting of an encoder-decoder structure, is use
 
 The user-friendly interface allows users to easily upload images and view the generated captions. Here is a screenshot of the GUI:
 
-![GUI Screenshot](![image](https://github.com/user-attachments/assets/fdc3cc05-359a-4e9d-9020-6b4cf3fb3acc))
   
 *(Replace "path_to_gui_image" with the actual image file path)*
 
