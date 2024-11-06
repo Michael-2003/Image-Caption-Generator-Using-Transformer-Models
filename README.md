@@ -93,7 +93,7 @@ The Transformer architecture, consisting of an encoder-decoder structure, is use
 
 The user-friendly interface allows users to easily upload images and view the generated captions. Here is a screenshot of the GUI:
 
-![GUI Screenshot](![Uploading image.png…])
+![GUI Screenshot](![image](https://github.com/user-attachments/assets/fdc3cc05-359a-4e9d-9020-6b4cf3fb3acc))
   
 *(Replace "path_to_gui_image" with the actual image file path)*
 
