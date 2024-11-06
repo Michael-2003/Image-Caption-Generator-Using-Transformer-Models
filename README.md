@@ -70,8 +70,44 @@ The model is trained on the **Flickr8k dataset**, which contains 8,000 images, e
     python generate_caption.py --image_path /path/to/image.jpg
     ```
 
+
 ---
 
+## **GUI Interface**
+
+The **GUI** provides a seamless and user-friendly way for users to interact with the image captioning model. With the interface, users can easily upload images and instantly view the generated captions. This provides a convenient way to test and explore the model's performance without needing to interact with the command line.
+
+### **Features of the GUI:**
+- **Image Upload**: Upload images in formats such as PNG or JPEG.
+- **Caption Generation**: Automatically generates captions for the uploaded images.
+- **Real-time Results**: Display of the generated caption immediately after the image is processed.
+- **User-friendly Layout**: Simple and intuitive interface, making it accessible for users with no programming experience.
+
+### **GUI Screenshot**  
+Here’s what the GUI looks like when opened:
+
+![GUI Screenshot](GUI Interface.png)
+
+### **Test Example**  
+Here’s an example of the GUI in action, showing an uploaded image and the generated caption:
+
+![GUI Screenshot](GUI interface_test_example.png)
+
+### **How to Use the GUI:**
+1. **Launch the GUI**: Run the following command in your terminal:
+    ```bash
+    python gui.py
+    ```
+   This will open the GUI window.
+
+2. **Upload an Image**: Click on the "Upload Image" button to select an image from your computer. Supported formats include JPEG and PNG.
+
+3. **View the Caption**: After uploading the image, the model will generate a caption that will be displayed below the image in the GUI.
+
+4. **Test Multiple Images**: Try uploading different images to see how well the model generates captions across a variety of inputs.
+
+
+---
 ## **Model Architecture**
 
 The architecture of the model combines two powerful components:
@@ -84,7 +120,7 @@ The EfficientNet model is used to extract image features from the input image. T
 
 The Transformer architecture, consisting of an encoder-decoder structure, is used to generate captions. The encoder processes the image features, and the decoder generates the sequence of words forming the caption.
 
-![Model Architecture](![image](https://github.com/user-attachments/assets/3af2cc81-1a27-42af-a7a2-f1563d4ce187))  
+![Model Architecture](path_to_architecture_image)  
 *(Replace "path_to_architecture_image" with the actual image file path)*
 
 ---
@@ -93,17 +129,10 @@ The Transformer architecture, consisting of an encoder-decoder structure, is use
 
 The user-friendly interface allows users to easily upload images and view the generated captions. Here is a screenshot of the GUI:
 
-  
-*(Replace "path_to_gui_image" with the actual image file path)*
+![GUI Screenshot](GUI Interface.png)  
+
+and an Test example 
+
+![GUI Screenshot](GUI interface_test_example.png)  
 
 ---
-
-## **Training the Model**
-
-### **Training Setup**
-
-- Set up the dataset path and model parameters in `parameters.py`.
-- Train the model using your dataset by executing `train.py`.
-
-```bash
-python train.py
