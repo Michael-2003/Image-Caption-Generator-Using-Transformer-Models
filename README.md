@@ -28,9 +28,9 @@ This project aims to develop an Image Caption Generator using deep learning tech
   Implements the logic for loading an image, processing it, and generating a caption using the trained model. This script is used for real-time caption generation.
 
 - **`gui.py`**  
-  Implements a graphical user interface (GUI) for users to upload images and receive captions. Built using Tkinter (or similar libraries).
+  Implements a simple graphical user interface (GUI) using Tkinter for users to upload images and receive captions.
 
-- **`notebook.ipynb`**  
+- **`ImageCaptioning.ipynb`**  
   A Jupyter notebook that contains all the code for training the model, generating captions, and performing evaluations. This notebook is useful for anyone who wants to run the code interactively in a notebook environment.
 
 ---
@@ -45,23 +45,65 @@ The model is trained on the **Flickr8k dataset**, which contains 8,000 images, e
 
 ## **How to Use**
 
-1. **Clone the repository**:
+### **1. Clone the repository**:
     ```bash
     git clone https://github.com/your-username/image-caption-generator.git
     cd image-caption-generator
     ```
 
-2. **Install dependencies**:
+### **2. Install dependencies**:
    The project requires several libraries for deep learning, image processing, and GUI development. You can install them via `pip`:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Training the Model**:
-   - Run the `train.py` script (or modify `model.py` and `parameters.py` as needed) to train the model on the Flickr8k dataset.
+### **3. Training the Model**:
+   - Set up the dataset path and model parameters in `parameters.py`.
+   - Run the `train.py` script to train the model on the Flickr8k dataset:
+    ```bash
+    python train.py
+    ```
 
-4. **Generate Captions**:
-   - After training, run the `generate_caption.py` script to input an image and receive a generated caption:
-   ```bash
-   python generate_caption.py --image_path /path/to/image.jpg
+### **4. Generate Captions**:
+   After training, run the `generate_caption.py` script to input an image and receive a generated caption:
+    ```bash
+    python generate_caption.py --image_path /path/to/image.jpg
+    ```
 
+---
+
+## **Model Architecture**
+
+The architecture of the model combines two powerful components:
+
+### **EfficientNet CNN**
+
+The EfficientNet model is used to extract image features from the input image. The extracted features are passed to the Transformer decoder for caption generation.
+
+### **Transformer**
+
+The Transformer architecture, consisting of an encoder-decoder structure, is used to generate captions. The encoder processes the image features, and the decoder generates the sequence of words forming the caption.
+
+![Model Architecture](path_to_architecture_image)  
+*(Replace "path_to_architecture_image" with the actual image file path)*
+
+---
+
+## **GUI Interface**
+
+The user-friendly interface allows users to easily upload images and view the generated captions. Here is a screenshot of the GUI:
+
+![GUI Screenshot](path_to_gui_image)  
+*(Replace "path_to_gui_image" with the actual image file path)*
+
+---
+
+## **Training the Model**
+
+### **Training Setup**
+
+- Set up the dataset path and model parameters in `parameters.py`.
+- Train the model using your dataset by executing `train.py`.
+
+```bash
+python train.py
