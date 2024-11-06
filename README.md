@@ -86,12 +86,12 @@ The **GUI** provides a seamless and user-friendly way for users to interact with
 ### **GUI Screenshot**  
 Here’s what the GUI looks like when opened:
 
-![GUI Interface.png](https://github.com/Michael-2003/Image-Caption-Generator-Using-Transformer-Models/blob/c7421c92005bc7f3d5dd5fed2bcde361aeb9136d/GUI%20interface_test_example.png)
+![GUI Interface.png](https://github.com/Michael-2003/Image-Caption-Generator-Using-Transformer-Models/blob/328517e87f33bd71d338d5b2fe7d537219fdf8d3/GUI%20Interface.png)
 
 ### **Test Example**  
 Here’s an example of the GUI in action, showing an uploaded image and the generated caption:
 
-![GUI Screenshot](GUI interface_test_example.png)
+![GUI Interface_test_example.png]https://github.com/Michael-2003/Image-Caption-Generator-Using-Transformer-Models/blob/c7421c92005bc7f3d5dd5fed2bcde361aeb9136d/GUI%20interface_test_example.png
 
 ### **How to Use the GUI:**
 1. **Launch the GUI**: Run the following command in your terminal:
@@ -120,8 +120,8 @@ The EfficientNet model is used to extract image features from the input image. T
 
 The Transformer architecture, consisting of an encoder-decoder structure, is used to generate captions. The encoder processes the image features, and the decoder generates the sequence of words forming the caption.
 
-![Model Architecture](path_to_architecture_image)  
-*(Replace "path_to_architecture_image" with the actual image file path)*
+![Model Architecture](https://github.com/Michael-2003/Image-Caption-Generator-Using-Transformer-Models/blob/328517e87f33bd71d338d5b2fe7d537219fdf8d3/Model%20Architecture.jpg)  
+
 
 ---
 
