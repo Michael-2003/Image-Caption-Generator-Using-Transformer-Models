@@ -46,16 +46,16 @@ The model is trained on the **Flickr8k dataset**, which contains 8,000 images, e
 ## **How to Use**
 
 ### **1. Clone the repository**:
-    ```bash
+  ```bash
     git clone https://github.com/your-username/image-caption-generator.git
     cd image-caption-generator
-    ```
+  ```
 
 ### **2. Install dependencies**:
    The project requires several libraries for deep learning, image processing, and GUI development. You can install them via `pip`:
-    ```bash
+  ```bash
     pip install -r requirements.txt
-    ```
+  ```
 
 ### **3. Training the Model**:
    - Set up the dataset path and model parameters in `parameters.py`.
@@ -152,14 +152,4 @@ The Transformer architecture, consisting of an encoder-decoder structure, is use
 
 ---
 
-## **GUI Interface**
 
-The user-friendly interface allows users to easily upload images and view the generated captions. Here is a screenshot of the GUI:
-
-![GUI Screenshot](GUI Interface.png)  
-
-and an Test example 
-
-![GUI Screenshot](GUI interface_test_example.png)  
-
----
